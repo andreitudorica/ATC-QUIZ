@@ -1,0 +1,73 @@
+﻿
+.elementDisplay {
+    background: #c9c9c9;
+    font-size: 25px;
+    height: 60px;
+    width: 60%;
+    margin: 30px auto 0;
+    color: #333;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+    .elementDisplay:hover {
+        background: #ff8530;
+        text-decoration: none;
+    }
+
+    .elementDisplay h3 {
+        color: #333;
+    }
+
+    .elementDisplay p {
+        position: relative;
+        padding-bottom: 30px;
+    }
+
+.elementDisplayAlternate {
+    background: #e3e3e3;
+    font-size: 25px;
+    height: 60px;
+    width: 60%;
+    margin: 30px auto 0;
+    color: #333;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+    .elementDisplayAlternate:hover {
+        background: #ff8530;
+        text-decoration: none;
+    }
+
+    .elementDisplayAlternate h3 {
+        color: #333;
+    }
+
+    .elementDisplayAlternate p {
+        position: relative;
+        padding-bottom: 30px;
+    }
+
+
+
+.ddlDisplay {
+    height: 40px;
+    width: 60%;
+    font-size:20px;
+    margin: 30px auto 0;
+}
+
+.ddl {
+    border: 2px solid #ff8530;
+    border-radius: 5px;
+    padding: 3px;
+    width: 20%;
+    height: 100%;
+    color: #000000;
+    -webkit-appearance: none;
+    background: #808080;
+    text-indent: 0.01px; /*In Firefox*/
+    text-overflow: ''; /*In Firefox*/
+}
+

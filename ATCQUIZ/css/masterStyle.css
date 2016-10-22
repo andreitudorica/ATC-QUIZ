@@ -1,0 +1,43 @@
+﻿/* Master Menu*/
+
+#brand-logo {
+    font-family: Helvetica;
+    font-size: 23px;!
+    color: rgba(255,211,0,0.8);!
+}
+
+#logo-white{
+    color: #fff;
+}
+
+#user{
+    font-size: 17px;!
+}
+
+#masterBody{
+    background: url(../assets/login_bg.jpg);
+}
+
+#addProj{
+    color: rgba(255,255,255,0.9);
+}
+
+#addProj:hover{
+    color: rgba(255,211,0,0.9);
+}
+
+.horizAllign{
+    margin: auto;
+    width: 5%;
+    padding: 10px;
+}
+
+#plusBtn{
+    padding: 90px 0px 0px 0px;
+}
+
+
+#lblName{
+    background:green;
+    color:greenyellow;
+}

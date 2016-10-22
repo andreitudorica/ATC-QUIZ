@@ -1,0 +1,44 @@
+﻿input[type=submit] {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    vertical-align: middle;
+}
+
+    input[type=submit] + label {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+    }
+
+        input[type=submit] + label:after {
+            content: '»';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+        }
+
+    input[type=submit]:hover + label {
+        padding-right: 25px;
+    }
+
+        input[type=submit]:hover + label:after {
+            opacity: 1;
+            right: 0;
+        }
+
+.buttonsGeneralAdmin {
+    text-align: center;
+}

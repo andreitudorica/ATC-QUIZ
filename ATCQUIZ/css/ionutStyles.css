@@ -1,0 +1,47 @@
+﻿body{
+    font-family:Helvetica;
+    background: #333;
+}
+
+.container {  
+  font-size: 25px; 
+  width:70%; 
+  margin:0 auto;               /*center-align function*/
+  padding-top: 100px;
+  color: #333;
+
+}
+
+.yellowTxtBox{
+    font-size:25px;
+    background:#555;
+    color: #ff6a00;
+    border-color: #222;
+    border-width: 1px;
+}
+
+.bi-new-button {
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Helvetica;
+    font-size: 25px;
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+    margin-top:10px;
+    padding-left: 20px;
+    padding-right:23px;
+    margin-bottom:10px;
+    text-decoration: none;
+    border: 2px solid #ff6a00;
+    color: #ff6a00;
+    background: rgba(255,255,255,0);
+}
+
+.bi-new-button:hover{
+    background: #ff6a00;
+    color: #333;
+}
+
+

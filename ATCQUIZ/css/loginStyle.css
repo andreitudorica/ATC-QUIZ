@@ -1,0 +1,129 @@
+﻿body{
+    background: url("../assets/login_bg.jpg");
+    height: 100%;
+}
+
+body,div,h1,h2,h3,h4,h5,h6,fieldset,input,textarea{ 
+  margin:0;
+  padding:0;
+}
+
+.bi-login-container {
+
+    margin: 100px auto;
+    width: 700px;
+}
+
+.bi-header {
+    background: none repeat scroll 0 0 #363F44;
+    border-bottom: 7px solid #ff6a00;
+    height: 118px;
+}
+
+.bi-header-container {
+    height: 118px;
+    margin: 0 auto;
+    max-width: 940px;
+}
+
+.logo-center {
+    text-align: center;
+    width: 700px;
+}
+
+.bi-header-logo {
+    color: #FFFFFF;
+    float: left;
+    font-family: Helvetica;
+    font-size: 50px;
+    font-weight: 100;
+    height: 118px;
+    line-height: 118px;
+}
+    
+    .bi-header-logo span {
+        color: #ff6a00;
+        font-weight: 300;
+    }
+
+.bi-login-content {
+    background: none repeat scroll 0 0 #E8ECEE;
+    border-radius: 0 0 5px 5px;
+    padding: 35px 60px;
+}
+
+.bi-login-line {
+    color: #363F44;
+    font-family: Helvetica;
+    font-size: 19px;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+
+.bi-login-line a {
+        color: #EA6753;
+        font-size: 14px;
+        text-align: right;
+        text-decoration: none;
+    }
+
+        .bi-login-line a:hover {
+            text-decoration: underline;
+        }
+        .bi-login-line input {
+        border: 0 none;
+        border-radius: 5px;
+        color: #363F44;
+        font-family: Helvetica;
+        font-size: 33px;
+        font-weight: 300;
+        height: 60px;
+        margin-top: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+.input-580 {
+    width: 560px;
+}
+
+.bi-new-button {
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Helvetica;
+    font-size: 23px;
+    font-weight: bold;
+    height: 56px;
+    line-height: 56px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+}
+
+.bi-new-button.button-right {
+    border: 2px solid #333;
+    color: #333;
+}
+
+.bi-new-button.button-right:hover {
+        background: #333;
+        color: rgba(255,255,255,0.8);
+        text-decoration: none;
+}
+
+.bi-new-button.button-left {
+    border: 2px solid #333;
+    color: #333;
+}
+
+.bi-new-button.button-left:hover {
+        background: #333;
+        color: rgba(255,255,255,0.8);
+        text-decoration: none;
+}
+
+.float-right{
+    float: right;
+}
+
