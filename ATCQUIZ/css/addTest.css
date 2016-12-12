@@ -1,0 +1,203 @@
+﻿.Initial {
+    display: block;
+    padding: 4px 18px 4px 18px;
+    float: left;
+    background: url("../Images/InitialImage.png") no-repeat right top;
+    color: Black;
+    font-weight: bold;
+}
+
+    .Initial:hover {
+        color: gray;
+        background: url("../Images/SelectedButton.png") no-repeat right top;
+    }
+
+.Clicked {
+    float: left;
+    display: block;
+    background: url("../Images/SelectedButton.png") no-repeat right top;
+    padding: 4px 18px 4px 18px;
+    color: Black;
+    font-weight: bold;
+    color: red;
+}
+
+body {
+    padding: 10px;
+}
+
+#exTab1 .tab-content {
+    color: white;
+    background-color: #555;
+    padding: 5px 15px;
+}
+
+#exTab2 h3 {
+    color: white;
+    background-color: #555;
+    padding: 5px 15px;
+}
+
+/* remove border radius for the tab */
+
+#exTab1 .nav-pills > li > a {
+    border-radius: 0;
+}
+
+/* change border radius for the tab , apply corners on top*/
+
+#exTab3 .nav-pills > li > a {
+    border-radius: 4px 4px 0 0;
+}
+
+#exTab3 .tab-content {
+    color: white;
+    background-color: #555;
+    padding: 5px 15px;
+}
+
+
+.TwoBigTextBoxes {
+    position: relative;    
+}
+
+.BigTextBox {
+    font-size: 25px;
+    background: #555;
+    color: #ff6a00;
+    border-color: #222;
+    border-width: 1px;
+    float: left;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.addCategoryBox {
+    font-size: 25px;
+    background: #555;
+    color: black;
+    border-color: #222;
+    border-width: 1px;
+    float: right;
+    width: 60%;
+    vertical-align: middle;
+}
+
+.btnAddCat{
+    width:30%;
+    border:1px #ff6a00 solid;
+    border-radius:10px;
+}
+.btnAdd {
+    width: inherit;
+    text-align: center;
+    position: center;
+
+}
+.NewTestContainer {
+       color:#ff6a00;
+}
+.lbl {
+ 
+    float:left;
+    font-size:30px;
+    padding-top: 15px;
+    width: 20%;
+}
+.btn{
+    float:left;
+    margin-top:20px;
+    font-size:30px;
+    padding-top:0px;
+    width: 10%;
+}
+
+.txt {
+    border-radius:25px;
+    float: right;
+    width: 80%;
+    resize: none;
+}
+
+
+input[type=radio] {
+    display: none;
+}
+    /*Change the look'n'feel of labels */
+    input[type=radio] + label {
+        display: inline-block;
+        margin: 2px;
+        padding: 4px 12px;
+        border-radius:5px;
+        background-color: gray;
+        border-color: #ddd;
+
+    }
+    /*Change background color for label next to checked radio button
+ to make it look like highlighted button*/
+    input[type=radio]:checked + label {
+        background-image: none;
+        background-color: #d0d0d0;
+        color: #ff6a00;
+    }
+input[type=checkbox] {
+    display: none;
+}
+/*Change the look'n'feel of labels*/
+    input[type=checkbox] + label {
+        display: inline-block;
+        margin: 2px;
+        padding: 4px 12px;
+        border-radius:5px;
+        background-color: gray;
+        border-color: #ddd;
+
+    }
+    /* Change background color for label next to checked radio button
+ to make it look like highlighted button*/
+    input[type=checkbox]:checked + label {
+        background-image: none;
+        background-color: #d0d0d0;
+        color: #ff6a00;
+    }
+
+
+.TrueOrFalseButtons {
+    width: 100%;
+    margin: 100px;
+    text-align: center;
+}
+.cbMultipleAnswers{
+    width:100%;
+    text-align:right;
+}
+.cbMultipleCorrectAnswer{
+    float:right;
+}
+.TPddlDisplay {
+    height: 40px;
+    width: 100%;
+    margin: auto 0;
+}
+.bi-new-button-add-q {
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Helvetica;
+    font-size: 25px;
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+    margin-top:10px;
+    padding-left: 20px;
+    padding-right:33px;
+    margin-bottom:10px;
+    text-decoration: none;
+    border: 2px solid #ff6a00;
+    color: #ff6a00;
+    background: rgba(255,255,255,0);
+}
+.bi-new-button-add-q:hover{
+    background: #ff6a00;
+    color: #333;
+}

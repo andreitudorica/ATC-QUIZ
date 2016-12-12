@@ -1,0 +1,63 @@
+﻿.elementDisplay {
+    background: #c9c9c9;
+    font-size: 35px;
+    height: 60px;
+    width: 60%;
+    margin: 30px auto 0;
+    color: #333;
+    border-radius: 10px;
+    padding-left: 10px;
+    display: table;
+}
+
+    .elementDisplay:hover {
+        background: #ff8530;
+        text-decoration: none;
+    }
+
+.answerDisplay {
+    background: #c9c9c9;
+    font-size: 35px;
+    height: 60px;
+    width: 60%;
+    margin: 30px auto 0;
+    color: #333;
+    border-radius: 10px;
+    padding-left: 10px;
+    display: table;
+}
+
+.elementIndex {
+    width: 7%;
+    height: 100%;
+    text-align: center;
+    display: table-cell;
+    border-right: 1px solid #ff8530;
+    padding: 5px 5px 5px 5px;
+    vertical-align: middle;
+}
+
+.elementQuestion {
+    width: 50%;
+    height: 100%;
+    display: table-cell;
+    border-right: 1px solid #ff8530;
+    padding: 10px 10px 10px 10px;
+    vertical-align: middle;
+}
+
+.elementID {
+    width: 10%;
+    height: 100%;
+    display: table-cell;
+    padding: 10px 10px 10px 10px;
+    vertical-align: middle;
+    text-align:center;
+}
+
+.txt {
+    border-radius:25px;
+    float: right;
+    width: 80%;
+    resize: none;
+}
